@@ -1,0 +1,816 @@
+PWD c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый
+INPUT C:\Users\Art\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\Report.tex
+OUTPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\Report.log
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\cmap\cmap.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\cmap\cmap.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\cmap\cmap.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\cmap\cmap.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\cmap\cmap.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\cmap\cmap.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\cmap\cmap.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\cmap\cmap.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\cmap\cmap.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\cmap\cmap.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\cmap\cmap.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\cyrillic\t2aenc.def
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\cyrillic\t2aenc.def
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\cyrillic\t2aenc.def
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\cyrillic\t2aenc.def
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\t2aenc.dfu
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\t2aenc.dfu
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\t2aenc.dfu
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\t2aenc.dfu
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\cyrillic\t2acmr.fd
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\cyrillic\t2acmr.fd
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\cyrillic\t2acmr.fd
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\cyrillic\t2acmr.fd
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm1000.tfm
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\cmap\t2a.cmap
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\cmap\t2a.cmap
+OUTPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\Report.pdf
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\cmap\t2a.cmap
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.def
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\generic\babel\txtbabel.def
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\babel-english\english.ldf
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\babel-english\english.ldf
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\babel-english\english.ldf
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\babel-english\english.ldf
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\babel-russian\russianb.ldf
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\babel-russian\russianb.ldf
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\babel-russian\russianb.ldf
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\babel-russian\russianb.ldf
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\latex-tools\array.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\latex-tools\array.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\latex-tools\array.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\latex-tools\array.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\latex-tools\array.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\latex-tools\array.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\latex-tools\array.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\latex-tools\array.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\latex-tools\array.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\latex-tools\array.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\latex-tools\array.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\sidecap\sidecap.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\sidecap\sidecap.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\sidecap\sidecap.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\sidecap\sidecap.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\sidecap\sidecap.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\sidecap\sidecap.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\sidecap\sidecap.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\sidecap\sidecap.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\sidecap\sidecap.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\sidecap\sidecap.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\sidecap\sidecap.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\latex-tools\indentfirst.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\latex-tools\indentfirst.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\latex-tools\indentfirst.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\latex-tools\indentfirst.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\latex-tools\indentfirst.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\latex-tools\indentfirst.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\latex-tools\indentfirst.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\latex-tools\indentfirst.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\latex-tools\indentfirst.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\latex-tools\indentfirst.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\latex-tools\indentfirst.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\a4wide\a4wide.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\a4wide\a4wide.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\a4wide\a4wide.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\a4wide\a4wide.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\a4wide\a4wide.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\a4wide\a4wide.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\a4wide\a4wide.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\a4wide\a4wide.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\a4wide\a4wide.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\a4wide\a4wide.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\a4wide\a4wide.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\ntgclass\a4.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\ntgclass\a4.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\ntgclass\a4.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\ntgclass\a4.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\ntgclass\a4.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\ntgclass\a4.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\ntgclass\a4.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\ntgclass\a4.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\ntgclass\a4.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\ntgclass\a4.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\ntgclass\a4.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\Report.aux
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\Report.aux
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\Report.aux
+OUTPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\Report.aux
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\everysel\everysel.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\everysel\everysel.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\everysel\everysel.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\everysel\everysel.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\everysel\everysel.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\everysel\everysel.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\everysel\everysel.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\everysel\everysel.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\everysel\everysel.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\everysel\everysel.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\everysel\everysel.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\everysel\everysel-2011-10-28.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\everysel\everysel-2011-10-28.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\everysel\everysel-2011-10-28.sty
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\everysel\everysel-2011-10-28.sty
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\lacc1000.tfm
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\mgu.png
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\mgu.png
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\mgu.png
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\mgu.png
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\mgu.png
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\mgu.png
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm1728.tfm
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm2488.tfm
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\labx2488.tfm
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm1200.tfm
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\lati1200.tfm
+INPUT C:\Users\Art\AppData\Local\MiKTeX\pdftex\config\pdftex.map
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm1440.tfm
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\labx1440.tfm
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\Report.toc
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\Report.toc
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\Report.toc
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\labx1000.tfm
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\cmap\ot1.cmap
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\cmap\ot1.cmap
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\cmap\ot1.cmap
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\mmap\oml.cmap
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\mmap\oml.cmap
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\mmap\oml.cmap
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\mmap\oms.cmap
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\mmap\oms.cmap
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\mmap\oms.cmap
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\mmap\omx.cmap
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\mmap\omx.cmap
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\mmap\omx.cmap
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\ursfs.fd
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\ursfs.fd
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\ursfs.fd
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\ursfs.fd
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs7.tfm
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs5.tfm
+OUTPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\Report.toc
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\labx1200.tfm
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\lati1000.tfm
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm0700.tfm
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\lati0700.tfm
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm0500.tfm
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\lati0500.tfm
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs5.tfm
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example1.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example1.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example1.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example1.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example1.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example1-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example1-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example1.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example1-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example1-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example1-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example1-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample1.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample1.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample1.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample1.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample1.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample1-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample1-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample1.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample1-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample1-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample1-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample1-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample1.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample1.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample1.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample1.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample1.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample1-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample1-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample1.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample1-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample1-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample1-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample1-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example2.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example2.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example2.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example2.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example2.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example2-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example2-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example2.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example2-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example2-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example2-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example2-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example22.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example22.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example22.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example22.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example22.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example22-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example22-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example22.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example22-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example22-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example22-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example22-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample2.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample2.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample2.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample2.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample2.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample2-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample2-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample2.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample2-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample2-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample2-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample2-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample2.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample2.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample2.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample2.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample2.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample2-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample2-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample2.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample2-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample2-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample2-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample2-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example3.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example3.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example3.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example3.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example3.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example3-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example3-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example3.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example3-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example3-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example3-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example3-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example33.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example33.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example33.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example33.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example33.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example33-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example33-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example33.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example33-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example33-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example33-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example33-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample3.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample3.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample3.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample3.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample3.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample3-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample3-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample3.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample3-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample3-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample3-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample3-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample3.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample3.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample3.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample3.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample3.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample3-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample3-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample3.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample3-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample3-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample3-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample3-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example4.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example4.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example4.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example4.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example4.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example4-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example4-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example4.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example4-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example4-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example4-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example4-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample4.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample4.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample4.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample4.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample4.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample4-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample4-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample4.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample4-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample4-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample4-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample4-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample4.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample4.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample4.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample4.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample4.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample4-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample4-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample4.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample4-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample4-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample4-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample4-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example5.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example5.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example5.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example5.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example5.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example5-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example5-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example5.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example5-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example5-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example5-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example5-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example55.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example55.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example55.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example55.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example55.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example55-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example55-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example55.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example55-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example55-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example55-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example55-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample5.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample5.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample5.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample5.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample5.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample5-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample5-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample5.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample5-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample5-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample5-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample5-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample5.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample5.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample5.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample5.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample5.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample5-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample5-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample5.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample5-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample5-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample5-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample5-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example6.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example6.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example6.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example6.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example6.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example6-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example6-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example6.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example6-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example6-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example6-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example6-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample6.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample6.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample6.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample6.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample6.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample6-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample6-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample6.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample6-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample6-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample6-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\pexample6-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample6.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample6.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample6.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample6.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample6.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample6-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample6-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample6.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample6-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample6-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample6-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\uexample6-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example7.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example7.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example7.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example7.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example7.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example7-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example7-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example7.eps
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example7-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example7-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example7-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\example7-eps-converted-to.pdf
+INPUT c:\Users\Art\Desktop\MSU\SA\Прак по ОУ\Первый\Report.aux
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lati1000.pk
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lati1000.pk
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1200.pk
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1200.pk
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1000.pk
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1000.pk
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1200.pk
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1200.pk
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lati1200.pk
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lati1200.pk
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx2488.pk
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx2488.pk
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1728.pk
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1728.pk
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1000.pk
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1000.pk
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lacc1000.pk
+INPUT C:\Users\Art\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lacc1000.pk
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy5.pfb
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy5.pfb
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
+INPUT C:\Users\Art\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb

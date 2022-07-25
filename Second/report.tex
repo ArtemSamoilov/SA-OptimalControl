@@ -1,0 +1,730 @@
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\norm}[1]{\left\lVert #1 \right\rVert}
+\newcommand{\scalar}[2]{\left<#1,#2\right>}
+\renewcommand{\phi}{\varphi}
+\renewcommand{\le}{\leqslant}
+\renewcommand{\ge}{\geqslant}
+\renewcommand{\baselinestretch}{2}
+\renewcommand{\epsilon}{\varepsilon}
+
+\newtheorem{theorem}{Теорема}
+
+\documentclass[11pt]{article}
+
+\usepackage{floatrow,graphicx,calc}
+\DeclareFloatSeparators{mysep}{\hspace{3cm}}
+
+\usepackage[hidelinks, unicode]{hyperref}
+\usepackage{cmap}
+\usepackage{a4wide}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{vmargin}
+\setpapersize{A4}
+\setmarginsrb{2.5cm}{2cm}{1.5cm}{2cm}{0pt}{0mm}{0pt}{13mm}
+\usepackage{indentfirst}
+\sloppy
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+\ \vspace{-3cm}
+
+\includegraphics[width=0.5\textwidth]{msu.eps}\\
+{\scshape Московский государственный университет имени М.~В.~Ломоносова}\\
+Факультет вычислительной математики и кибернетики\\
+Кафедра системного анализа
+
+\vfill
+
+{\LARGE Отчёт по практикуму}
+
+\vspace{1cm}
+
+{\Huge\bfseries <<Линейная задача ОУ>>}
+\end{center}
+
+\vspace{1cm}
+
+\begin{flushright}
+  \large
+  \textit{Студент 315 группы}\\
+  Ф.\,А.~Федоров
+
+  \vspace{5mm}
+
+  \textit{Руководитель практикума}\\
+  к.ф.-м.н., доцент П.\,А.~Точилин
+\end{flushright}
+
+\vfill
+
+\begin{center}
+Москва, 2021
+\end{center}
+
+\newpage
+\tableofcontents
+
+\newpage
+\section{Постановка задачи}
+
+
+Рассматривается линейная задача быстродействия:
+\begin{equation}\label{mainTask}
+\begin{aligned}
+&\dot x = Ax + Bu, t\in\left[t_0, +\infty    \right],
+\\
+&x \in \mathbb{R}^2, A \in \mathbb{R}^{2\times2}, B \in \mathbb{R}^{2\times2},\: \forall t, u(t) \in \mathcal{P}
+\subset \mathbb{R}^2,
+x_0 = x(t_0) \in \chi_0, x_1 = x(t_1) \in \chi_1.
+\\
+& x(t_1) \in \chi_1, t_1 \rightarrow \inf.
+\end{aligned}
+\end{equation}
+На управляющий $u(t)$ параметр наложено ограничение $u(t) \in \mathcal{P} \: \forall t,$ где $\mathcal{P}$ ~--- невырожденный эллипсоид
+с матрицей конфигурации $Q, \chi_0$ - начальное множество, $\chi_1$ - конечное. Необходимо численно решить задачу быстродействия
+то есть написать программу, которая принимает на вход параметры, заданные в задаче, а так же параметры, определяющие точность решения, 
+численно находит такое управление, за которое траектория системы, выпущенная из начального множества в момент времени
+$t_0$ может попасть в некоторую точку целевого множества за минимально допустимое время, 
+построить график этой траектории, либо вывести сообщение, что такой траектории нет.
+
+\begin{equation}
+\begin{aligned}
+&\chi_0 = \{ \left(x_1, x_2\right)' : x_1^2 + (x_2-\alpha)^4 \le \gamma   \},
+\\
+&\chi_1 = \{\left(x_1, x_2\right)' : x_1x_2 > 1, x_1 \ge 0, x_2 + x_2 < a, a > 0\}.
+\end{aligned}
+\end{equation}
+
+\section{Опорные функции}
+Рассмотрим первое множество: оно выпукло, замкнуто и ограничено $\Rightarrow$ может быть
+описано исчерпывающим образом своей опорной функцией.
+\[
+\rho(l | \chi_0) = \sup_{x \in \chi_0}\scalar{l}{x}.
+\] 
+Так как множество выпукло $\Rightarrow$ 
+максимум скалярного произведения достигается на границе, то есть необходимо найти условный экстремум
+\begin{equation}\label{condExtr}
+\begin{aligned}
+& x_1l_1 + x_2l_2 \rightarrow \sup,
+\\
+& \left(x_1, x_2\right)' : x_1^2 + (x_2-\alpha)^4 = \gamma.
+\end{aligned}
+\end{equation}  
+Составим функцию Лагранжа:
+\[
+\mathcal{L} = x_1l_1 + x_2l_2 - \lambda \left(x_1^2 + (x_2-\alpha)^4 - \gamma   \right).
+\]
+Из равенства частных производных нулю, найдем $\lambda:$
+\[
+\begin{aligned}
+&\frac{\partial\mathcal{L}}{\partial x_1} = l_1 - 2\lambda x_1 = 0 
+\Rightarrow x_1 = \frac{l_1}{2\lambda},
+\\
+&\frac{\partial\mathcal{L}}{\partial x_2} = l_2 - 4\lambda \left(x_2 - \alpha \right)^3 = 0 
+\Rightarrow x_2 = \left( \frac{l_2}{4\lambda} \right)^{\frac{1}{3}} + \alpha,
+\\
+& \frac{\partial\mathcal{L}}{\partial \lambda} = -x_1^2 - (x_2-\alpha)^4 + \gamma = 0.
+\\
+\end{aligned}
+\]
+Подставив выражения для $x_1, x_2$ получим
+\[
+\begin{aligned}
+&\left(\frac{l_1}{2\lambda}  \right) ^ 2 + \left(\frac{l_2}{4\lambda}  \right)^{\frac{4}{3}} = \gamma,
+\\
+& \lambda = t^{-\frac{3}{2}},
+\\
+& \left(\frac{l_1}{2}   \right)^2 t^3 + \left(\frac{l_2}{4}\right)^{\frac{4}{3}}t^2 = \gamma.
+\end{aligned}
+\]
+Исследуем получившийся многочлен при $l_1 \ne 0$. Пусть
+\[
+\begin{aligned}
+&\left(\frac{l_1}{2}  \right) ^ 2 = a_1, \left(\frac{l_2}{4}  \right)^{\frac{4}{3}} = a_2,
+\\
+& f(t) = a_1t^3 + a_2t^2 - \gamma, f'(t) = 3a_1t^2 + 2a_2t = t(3a_1t+2a_2).
+\end{aligned}
+\]
+Приравнивая производную нулю, получаем, что
+\[
+\begin{aligned}
+&f(t) \uparrow,  t \in \left(-\infty, -\frac{2a_2}{3a_1}  \right), f(-\frac{2a_2}{3a_1}) = \frac{4a_2^3}{27a_1^2} - \gamma
+\\
+&f(t) \downarrow , t \in \left(-\frac{2a_2}{3a_1}, 0  \right), f(0) = -\gamma \le 0,
+\\
+&f(t) \uparrow , t \in \left(0 , \infty \right).
+\end{aligned}
+\]
+Из этого можно сделать вывод, что у многочлена всегда есть 1 вещественный корень больше нуля, и может быть еще два, меньше нуля.
+Для выбора подходящего корня, обратимся к \eqref{condExtr}: подставив в выражение для максимизации $x_1, x_2$ выраженные через 
+$\lambda$ по описанным выше формулам, получим:
+\[
+\frac{l_1^2}{2\lambda} + \frac{l_2^{\frac{4}{3}}}{4\lambda ^{\frac{1}{3}}} + \alpha l_2 \rightarrow \sup.
+\]
+Заметим, что $l_1, l_2$ стоят в четных степенях, $\Rightarrow$ выражение принимает большее значение, при $\lambda > 0, \Rightarrow$
+при отборе необходим тот корень, который больше нуля.
+Подставляя его, находим $\lambda = t^{-\frac{3}{2}}$, а затем, по описанным выше формулам, находим 
+опорный вектор $x = (x_1,x_2)'.$
+В случае, когда $l_1 = 0$ имеем квадратное уравнение $a_2 t^2  - \gamma = 0,$ которое очевидно имеет корень больше нуля.
+
+Второе множество представляет из себя пересечение надграфика гиперболы $x_1x_2 \ge 1$ в первом квадранте 
+и ‘подграфика’ прямой $x_1+x_2 = a$. Найдем точки пересечения:
+\[
+\begin{aligned}
+&x_2 = a - x_1 = \frac{1}{x_1},
+\\
+&x_1^2 - ax_1 + 1 = 0,
+\\
+&D = a^2 - 4
+\end{aligned}
+\]
+Если дискриминант меньше нуля, то множества не пересекаются и $\chi_1 = \varnothing$. Иначе:
+\[
+\begin{aligned}
+&\hat x_1 = \frac{1}{2}\left(a + \sqrt{D} \right),
+\\
+&\hat x_2 = \frac{1}{2}\left(a - \sqrt{D} \right).
+\end{aligned}
+\]
+
+Выпишем явно касательные векторы к гиперболе в точках $\hat x_1, \hat x_2:$
+обозначим $\phi_1$ ~--- угол касательной к гиперболе в точке $\hat x_1$, $\phi_2$ ~--- в точке $\hat x_2.$
+Из свойств производной функции $x_2(x_1) = \frac{1}{x_1}$ следует, что $\tg(\phi_1) = -\frac{1}{\hat x_1^2}.$
+Тогда вектор касательной к гиперболе $h_1$ в точке $\hat x_1$ можно вычислить, как вектор, проходящий вдоль прямой $x_2 = x_1 \tg(\phi_1)$
+в направлении уменьшения координаты $x_1$ для дальнейшего удобства:
+\[
+h_1 = \left(-1, -\tg(\phi_1) \right)' = \left(-1, \frac{1}{\hat x_1^2} \right)'.
+\]
+Используя аналогичные соображения, вычислим вектор касательной к гиперболе $h_2$
+в направлении увеличения координаты $x_1$:
+\[
+h_2 = \left(1, \tg(\phi_2) \right)' = \left(1, -\frac{1}{\hat x_2^2} \right). 
+\]
+
+Так как множество $\chi_1$ выпукло $\Rightarrow$ $\sup_{x \in \chi_1} \scalar{l}{x}$ будет достигаться
+на том $x,$ для которого $l$ будет перпендикулярно касательной к множеству в точке $x.$
+Заметим, что касательные векторы с выбранными направлениями со стороны гиперболы образуют тупой угол, а со стороны прямой ~--- острый.
+Проиллюстрировать это может пример множества $\chi_1.$
+\newpage
+
+\begin{figure}[h!]
+\ffigbox{\caption{Пример $\chi_1$}\label{fig:fbb}}%
+{\includegraphics[scale=1]{chi1}}
+\end{figure}
+
+
+То есть можно использовать знаки скалярного произведения, для выявления стороны, к которой вектор $l$ будет нормалью.
+Если $\scalar{l}{h_1} < 0$ и $\scalar{l}{h_2} < 0,$ тогда вектор $l$ будет нормалью к гиперболе
+то есть необходимо решить задачу минимизации на множестве. 
+\[
+\begin{aligned}
+& x_1l_1 + x_2l_2 \rightarrow \sup,
+\\
+& \left(x_1, x_2\right)' : x_1 x_2 = 1.
+\end{aligned}
+\]
+Составим функцию Лагранжа:
+\[
+\mathcal{L} = x_1l_1 + x_2l_2 - \lambda \left(x_1 x_2 - 1 \right).
+\]
+Из равенства частных производных нулю, найдем $\lambda:$
+\[
+\begin{aligned}
+&\frac{\partial\mathcal{L}}{\partial x_1} = l_1 - \lambda x_2 = 0,
+\Rightarrow x_2 = \frac{l_1}{\lambda},
+\\
+&\frac{\partial\mathcal{L}}{\partial x_2} = l_2 - \lambda x_1 = 0,
+\Rightarrow x_1 = \frac{l_2}{\lambda},
+\\
+& \frac{\partial\mathcal{L}}{\partial \lambda} = -x_1 x_2 + 1 = 0.
+\\
+\end{aligned}
+\]
+Подставив выражения для $x_1, x_2$ и учтя, что $x \in I $ четверти, получим
+\[
+\begin{aligned}
+&\frac{l_1}{\lambda} \frac{l_2}{\lambda} = 1 \Rightarrow \lambda = \pm\sqrt{l_1 l_2},
+\\
+&\left(x_1, x_2\right)' = \left(\sqrt{\frac{l_2}{l_1}},  \sqrt{\frac{l_1}{l_2}}\right)',
+\\
+&\rho\left(l | \chi_1  \right) = \scalar{x}{l} = 2\sqrt{l_1 l_2}.
+\end{aligned}
+\]
+Заметим, что если вектор $l$ является нормалью к гиперболе, то ни одна его компонента не может быть 
+равна нулю так как находится он в III четверти, то есть все рассуждения корректны.
+
+Если $l_1 > 0, l_2 > 0, \frac{l_2}{l_1} = 1,$ тогда один из опорных векторов $x$ коллинеарен
+вектору $l$, т. е. $x = \beta l$ и лежащий на прямой $x_1 + x_2 = a \Rightarrow$
+\[
+\begin{aligned}
+& \beta \left(l_1 + l_2  \right) = a \Rightarrow \beta = \frac{a}{l_1+l_2} \Rightarrow 
+x = \frac{a}{l_1+l_2} l,
+\\
+& \rho\left(l | \chi_1  \right) = \scalar{x}{l} = \frac{a}{l_1+l_2}\scalar{l}{l}.
+\end{aligned}
+\]
+Заметим, что в этом случае опорным множеством будет весь отрезок. 
+
+В иных случаях, опорными векторами будут точки пересечения гиперболы и прямой. 
+Положим $y_1 = \left(\hat x_1, \frac{1}{\hat x_1} \right)',
+y_2 = \left(\hat x_2, \frac{1}{\hat x_2} \right)'$
+Тогда если $\scalar{l}{y_2} \le \scalar{l}{y_1}:$
+\[
+\begin{aligned}
+&x = y_1,
+\\
+& \rho\left(l | \chi_1  \right) = \scalar{y_1}{l},
+\end{aligned}
+\]
+иначе
+\[
+\begin{aligned}
+& x = y_2,
+\\
+& \rho\left(l | \chi_1  \right) = \scalar{y_2}{l}.
+\end{aligned}
+\]
+
+\section{Принцип максимума}
+Для решения задачи численно, потребуется принцип максимума в формулировке для линейной задачи быстродействия.
+\begin{theorem}\label{PMP}
+
+Пусть допустимое управление $u(t) \in \mathcal{P}, t \in \left[t_0, t_1    \right]$ 
+переводящее фазовую точку из положения $x_0 = x(t_0) \in \chi_0$ в положение $x_1 \in \chi_1,$
+а $x(t)$ ~--- соответствующая траектория, то есть решение системы из \eqref{mainTask} при заданном $u(t),$
+такая, что $x(t_0) = x_0, x(t_1) = x_1.$ Для оптимальности по быстродействию управления $u(t)$
+и траектории $x(t)$ необходимо существование такой ненулевой непрерывной вектор-функции
+$\psi(t) = (\psi_1(t), \psi_2(t), \dots, \psi_n(t))':$
+\begin{enumerate}
+\item $ \dot \psi(t) = -A'(t)\psi(t), \psi(t) \ne 0,$
+\item $\scalar{\psi(t)}{B(t)u(t)} = \rho(\psi(t)| B(t) \mathcal{P}\left(t\right)), $
+\item $\scalar{\psi(t_0)}{x(t_0)} = \rho(\psi(t_0) | \chi_0),$
+\item $\scalar{-\psi (t_1)}{x(t_1)} = \rho(-\psi(t_1) | \chi_1).$
+\end{enumerate}
+\end{theorem}
+
+\section{Решение задачи}
+Из \eqref{PMP} и множества управлений получим $(u(\psi)).$ Для этого воспользуемся известной формулой для
+опорной функции эллипса: 
+\[
+\rho(l | \mathcal{P}) = \sqrt{\scalar{Ql}{l}} + \scalar{l}{p}, x = \frac{Ql}{\sqrt{\scalar{Ql}{l}}} + p.
+\]
+Нетрудно заметить, что 
+\begin{multline*}
+\scalar{\psi(t)}{ B(t)u(t)} = \{u(t) = \hat u(t) + p, \hat u(t \in \mathcal{E}(Q, 0))   \} = 
+\scalar{\psi(t)}{ B(t)\hat u(t)} + \scalar{\psi(t)}{B(t)p} = \rho \left(\psi(t) | B(t)\mathcal{P}\right) = 
+\\
+\rho \left(\psi(t) | B(t)\mathcal{E}(Q, 0) \right) + \scalar{\psi(t)}{B(t)p},
+\end{multline*}
+где $\mathcal{E}(Q, 0) $ ~--- эллипс с центром в нуле и матрицей конфигурации $Q.$ Сокращая из обеих частей равенства 
+$\scalar{\psi(t)}{B(t)p}$ получим, что можно для простоты выразить управление для эллипса с центом в нуле, а затем добавить к нему 
+вектор смещения эллипса $p.$
+
+Так как матрица $Q = Q'$ и $Q > 0 \Rightarrow \exists R > 0 : Q = RR'.$
+Далее, множество 
+\[
+\mathcal{P} = \{x: \scalar{Q^{-1}x}{x} \le 1  \} = R\tilde{B}_1(0), \tilde{B}_1(0) = \{x : \scalar{x}{x} \le 1 \}.
+\] 
+Перепишем условие 2 из \eqref{PMP}, подставив конкретные значения и опустив аргумент для краткости:
+\[
+\begin{aligned}
+& \scalar{\psi}{Bu} = \scalar{B'\psi}{u} = \{u \in \mathcal{P} = R\tilde{B}(0, 1) \Rightarrow
+\exists v \in \tilde{B}_1(0) : Rv = u\} = \scalar{B'\psi}{Rv} =
+\\ 
+&\scalar{R'B'\psi}{v} \le
+\norm{R'B'\psi}_2\norm{v}_2 = \sqrt{\scalar{QB'\psi}{B'\psi}} = \rho(B'\psi |\mathcal{P}) = \rho(\psi | B \mathcal{P}).
+\end{aligned}
+\]
+Цепочка данных преобразований справедлива, когда выполнено неравенство КБ для почти всюду $t$, то есть когда 
+\[
+v = \beta R'B'\psi \Rightarrow 
+v = \frac{R'B'\psi}{\norm{R'B'\psi}_2} \Rightarrow u = Rv = \frac{QB'\psi}{\norm{R'B'\psi}_2} = \frac{QB'\psi}{\sqrt{\scalar{QB'\psi}{B'\psi}}}.
+\]
+Таким образом было найдено явное выражение для $u(\psi(t))$ при \( \sqrt{\scalar{QB'\psi}{B'\psi}} \ne 0 .\)
+В случае равенства нулю, из положительной определенности матрицы $Q$ следует, что 
+\[ \sqrt{\scalar{QB'\psi}{B'\psi}} = 0 \Rightarrow B'\psi = 0.\]
+То есть \(u\) может быть выбран любым. Положим в данном случае
+\(u\) равным своему предыдущему ненулевому значению.
+
+Зная конкретное $u(t),$ можем найти $x(t),$ решая численно уравнения для $x(t)$ из \eqref{mainTask} при заданном управлении.
+\section{Алгоритм решения}
+\begin{enumerate}
+\item Проверка множеств $\chi_0, \chi_1$ на вырожденность.
+\item Перебираем все направления для \(\psi_0\) вида 
+\(  \left(\cos\left(\frac{\pi k}{N}\right) , \sin\left(\frac{\pi k}{N}  \right)   \right)  .\) От величины $N$ будет
+зависеть точность перебора, то есть при его увеличении точность численного решения увеличивается.
+\item Для каждого направления \(\psi_0\) численно решаем задачу Коши (с помощью функции ode45) для $\psi.$
+В силу ограниченности возможностей компьютера, $\psi(t)$ будет кусочно постоянным (пусть и с маленькими промежутками времени)
+и будет считаться до заранее заданного $T.$
+\item По траектории $\psi$ восстанавливаем кусочно постоянное управление (оно будет кусочно постоянным в силу замечания, сделанного в предыдущем пункте), 
+а, зная управление, решаем задачу Коши для $x(t)$ (с помощью функции ode45).
+\item Выбираем наилучшее решение. Если траекторий, пересекающих итоговое множество нет, то завершаем работу.
+\item Если оптимальная траектория найдена, тогда выделяем эту траекторию черным цветом, выводим графики $u(t), \psi(t), x(t)$, и,
+ пользуясь вторым условием трансверсальности, считаем погрешность по формуле
+$| \scalar{\psi(t_1)}{x(t_1)} - \rho(-\psi(t_1) | \chi_1) |,$ где $t_1 $ ~--- конечное время, а вектор $\psi(t_1) $ ~--- нормирован.
+
+\section{Переменные программы}
+\(a, \alpha, \gamma, A, B, Q, p\) ~--- переменные, значения которых понятны из постановки задачи.
+\(N\) ~--- число направлений, вдоль которых решается уравнение для $\psi.$
+$T$ ~--- максимально допустимое время интегрирования траектории.
+$\lambda_1, \lambda_2$ ~--- собственные значения матрицы $A.$
+На выходе программа выдает график траекторий, построенных в процессе поиска оптимальной, и, 
+если оптимальная найдена, то выделяет среди них оптимальную черной линией, выводит погрешность
+решения, график компонент для оптимального управления, оптимальной траектории и сопряженной переменной.
+
+\end{enumerate}
+
+
+\section{Примеры}
+Ниже приведены изображения нескольких видов. Комментарии к изображениям (номер комментария соответствует виду изображения):
+\begin{enumerate}
+\item На данных изображениях представлены траектории, полученные в процессе перебора значений для $\psi_0.$
+Зеленые линии ~--- траектории, полученные в ходе перебора начальных значений $\psi_0$, 
+черная линия ~--- оптимальная траектория, красные линии ~--- границы множества $\chi_0,$ 
+синие ~--- границы множества $\chi_1.$
+\item На данных изображениях представлены графики компонент численно подобранного ‘оптимального’ управления
+в зависимости от времени.
+\item На данных изображениях представлены графики компонент численно подобранной ‘оптимальной’ траектории
+в зависимости от времени.
+\item На данных изображениях представлены графики компонент численно подобранной ‘оптимальной’ сопряженной
+переменной $\psi$ в зависимости от времени.
+\end{enumerate}
+
+\newpage
+\[a = 10, \alpha = 0, \gamma = 0.1, \lambda_1 = 0, \lambda_2 = 1, p = (1,0)',\] 
+\[T_{max} = 1, T_{opt} = 0.3142, N = 100, \delta = 9.1\cdot 10^{-6},\]
+\[
+A = \left(
+\begin{array}{cc}
+0 & 0\\
+0 & 1\\
+\end{array}
+\right),
+B = \left(
+\begin{array}{cc}
+1 & 0\\
+0 & 1\\
+\end{array}
+\right),
+Q = \left(
+\begin{array}{cc}
+2 & 0\\
+0 & 4\\
+\end{array}
+\right)
+\]
+
+\begin{figure}[h!]
+\ffigbox{\caption{График вида 1}\label{fig:fbb}}%
+{\includegraphics[scale=1]{test1}}
+\end{figure}
+
+\begin{figure}\caption{График вида 2}
+\centering
+\includegraphics[scale=0.6]{u1}
+\end{figure}
+
+\begin{figure}\caption{График вида 3}
+\centering
+\includegraphics[scale=0.6]{x1}
+\end{figure}
+
+\begin{figure}\caption{График вида 4}
+\centering
+\includegraphics[scale=0.6]{psi1}
+\end{figure}
+
+\newpage
+\[a = 5, \alpha = 1, \gamma = 0.01, \lambda_1 = 0.783, \lambda_2 = 10.217, p = (1,0)',\] 
+\[T_{max} = 0.1, T_{opt} = 0.0585, N = 30, \delta = 3.9\cdot 10^{-6},\]
+\[
+A = \left(
+\begin{array}{cc}
+1 & 2\\
+1 & 10\\
+\end{array}
+\right),
+B = \left(
+\begin{array}{cc}
+1 & 0\\
+0 & 1\\
+\end{array}
+\right),
+Q = \left(
+\begin{array}{cc}
+2 & 0\\
+0 & 4\\
+\end{array}
+\right)
+\]
+
+\begin{figure}[h!]
+\ffigbox{\caption{График вида 1}\label{fig:fbb}}%
+{\includegraphics[scale=1]{test2}}
+\end{figure}
+
+\begin{figure}\caption{График вида 2}
+\centering
+\includegraphics[scale=0.6]{u2}
+\end{figure}
+
+\begin{figure}\caption{График вида 3}
+\centering
+\includegraphics[scale=0.6]{x2}
+\end{figure}
+
+\begin{figure}\caption{График вида 4}
+\centering
+\includegraphics[scale=0.6]{psi2}
+\end{figure}
+\newpage
+
+\newpage
+Следующие 2 примера иллюстрируют тот факт, что задача не является непрперывно зависящей от начального множества $\chi_0:$
+при расширении начального множества на $0.0001$ оптимальное время изменяется с $14$ до $0.$
+\[a = 20, \alpha = 8, \gamma = 0.01, \lambda_1 = \frac{1}{10}i\sqrt{3}, \lambda_2 = -\frac{1}{10}i\sqrt{3}, p = (1,0)',\] 
+\[T_{max} = 18, T_{opt} = 14.5431, N = 300, \delta = 6.7\cdot 10^{-5},\]
+\[
+A = \left(
+\begin{array}{cc}
+0 & -\frac{2}{10}\\
+\frac{3}{10} & 0\\
+\end{array}
+\right),
+B = \left(
+\begin{array}{cc}
+\frac{1}{5} & 0\\
+0 & \frac{1}{5}\\
+\end{array}
+\right),
+Q = \left(
+\begin{array}{cc}
+2 & 1\\
+1 & 4\\
+\end{array}
+\right)
+\]
+
+\begin{figure}[h!]
+\ffigbox{\caption{График вида 1}\label{fig:fbb}}%
+{\includegraphics[scale=1]{test3}}
+\end{figure}
+
+\begin{figure}\caption{График вида 2}
+\centering
+\includegraphics[scale=0.6]{u3}
+\end{figure}
+
+\begin{figure}\caption{График вида 3}
+\centering
+\includegraphics[scale=0.6]{x3}
+\end{figure}
+
+\begin{figure}\caption{График вида 4}
+\centering
+\includegraphics[scale=0.6]{psi3}
+\end{figure}
+\newpage
+
+\newpage
+\[a = 20, \alpha = 8, \gamma = 0.02, \lambda_1 = \frac{1}{10}i\sqrt{3}, \lambda_2 = -\frac{1}{10}i\sqrt{3}, p = (1,0)',\] 
+\[T_{max} = 18, T_{opt} = 0, N = 300, \delta = 0,\]
+\[
+A = \left(
+\begin{array}{cc}
+0 & -\frac{2}{10}\\
+\frac{3}{10} & 0\\
+\end{array}
+\right),
+B = \left(
+\begin{array}{cc}
+\frac{1}{5} & 0\\
+0 & \frac{1}{5}\\
+\end{array}
+\right),
+Q = \left(
+\begin{array}{cc}
+2 & 1\\
+1 & 4\\
+\end{array}
+\right)
+\]
+
+\begin{figure}[h!]
+\ffigbox{\caption{График вида 1}\label{fig:fbb}}%
+{\includegraphics[scale=1]{test4}}
+\end{figure}
+\newpage
+
+\[a = 5, \alpha = 0, \gamma = 0.1, \lambda_1 = 1, \lambda_2 = -5, p = (1,0)',\] 
+\[T_{max} = 1, T_{opt} = 0.6877, N = 100, \delta = 2.7\cdot 10^{-4},\]
+\[
+A = \left(
+\begin{array}{cc}
+1 & 0\\
+0 & -5\\
+\end{array}
+\right),
+B = \left(
+\begin{array}{cc}
+1 & 0\\
+0 & 1\\
+\end{array}
+\right),
+Q = \left(
+\begin{array}{cc}
+2 & 1\\
+1 & 4\\
+\end{array}
+\right)
+\]
+
+\begin{figure}[h!]
+\ffigbox{\caption{График вида 1}\label{fig:fbb}}%
+{\includegraphics[scale=1]{test5}}
+\end{figure}
+
+\begin{figure}\caption{График вида 2}
+\centering
+\includegraphics[scale=0.6]{u5}
+\end{figure}
+
+\begin{figure}\caption{График вида 3}
+\centering
+\includegraphics[scale=0.6]{x5}
+\end{figure}
+
+\begin{figure}\caption{График вида 4}
+\centering
+\includegraphics[scale=0.6]{psi5}
+\end{figure}
+\newpage
+
+На примере, представленном ниже видно, как после изменение итогового множества на $0.0001$ 
+оптимальное время изменилось на 4, что говорит об отсутствии непрерывной зависимости.
+
+\[a = 5.2499, \alpha = -15, \gamma = 1,  p = (1,0)',\] 
+\[T_{max} = 11, T_{opt} = 10.8, N = 50,\]
+\[
+A = \left(
+\begin{array}{cc}
+\sin(t) & -2\\
+3 & \cos(t)\\
+\end{array}
+\right),
+B = \left(
+\begin{array}{cc}
+-1 & 0\\
+0 & -1\\
+\end{array}
+\right),
+Q = \left(
+\begin{array}{cc}
+2 & 1\\
+1 & 4\\
+\end{array}
+\right)
+\]
+
+\begin{figure}[h!]
+\ffigbox{\caption{График вида 1}\label{fig:fbb}}%
+{\includegraphics[scale=1]{test6}}
+\end{figure}
+
+\begin{figure}\caption{График вида 2}
+\centering
+\includegraphics[scale=0.6]{u6}
+\end{figure}
+
+\begin{figure}\caption{График вида 3}
+\centering
+\includegraphics[scale=0.6]{x6}
+\end{figure}
+
+\begin{figure}\caption{График вида 4}
+\centering
+\includegraphics[scale=0.6]{psi6}
+\end{figure}
+\newpage
+
+\[a = 5.25, \alpha = -15, \gamma = 1,  p = (1,0)',\] 
+\[T_{max} = 11, T_{opt} = 6.1, N = 50,\]
+\[
+A = \left(
+\begin{array}{cc}
+\sin(t) & -2\\
+3 & \cos(t)\\
+\end{array}
+\right),
+B = \left(
+\begin{array}{cc}
+-1 & 0\\
+0 & -1\\
+\end{array}
+\right),
+Q = \left(
+\begin{array}{cc}
+2 & 1\\
+1 & 4\\
+\end{array}
+\right)
+\]
+
+\begin{figure}[h!]
+\ffigbox{\caption{График вида 1}\label{fig:fbb}}%
+{\includegraphics[scale=1]{test7}}
+\end{figure}
+
+\begin{figure}\caption{График вида 2}
+\centering
+\includegraphics[scale=0.6]{u7}
+\end{figure}
+
+\begin{figure}\caption{График вида 3}
+\centering
+\includegraphics[scale=0.6]{x7}
+\end{figure}
+
+\begin{figure}\caption{График вида 4}
+\centering
+\includegraphics[scale=0.6]{psi7}
+\end{figure}
+\newpage
+
+
+
+
+\newpage
+\begin{thebibliography}{9}
+\bibitem{lektures} \emph{Лекции по курсу оптимальное управление}.
+\bibitem{mhogoznak} Арутюнов А. В. \emph{Лекции по выпуклому и многозначному анализу}. ФИЗМАТЛИТ, 2014.
+\bibitem{OC} Л.С. Понтрягин, В.Г. Болтянский, Р.В. Гамкрелидзе, Е.Ф. Мищенко \emph{Математическая теория оптимальных процессов}.
+МОСКВА ‘НАУКА’, ГЛАВНАЯ РЕДАКЦИЯ ФИЗИКО-МАТЕМАТИЧЕСКОЙ ЛИТЕРАТУРЫ, 1983.
+
+
+\end{thebibliography}
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
